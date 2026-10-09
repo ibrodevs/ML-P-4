@@ -1,0 +1,36 @@
+{
+  "dataset": "sklearn.datasets.load_diabetes",
+  "dataset_rows": 442,
+  "initial_features": [
+    "age",
+    "sex",
+    "bmi",
+    "bp",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6"
+  ],
+  "removed_by_vif": [
+    {
+      "feature": "s1",
+      "vif_before_removal": 59.202510134318615
+    }
+  ],
+  "final_features": [
+    "age",
+    "sex",
+    "bmi",
+    "bp",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6"
+  ],
+  "vif_threshold": 10.0,
+  "residual_trend_slope": -0.06263226348556425,
+  "residual_prediction_correlation": -0.06188391850177313
+}
